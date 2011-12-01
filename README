@@ -1,0 +1,55 @@
+FrankenTAB aims to pick up where the gtab-devs left off with VEGAn-TAB 1.00 b5.1.1 (our v001a is a direct port of b5.1.1 to BL 1.2 with a clemsyn kernel). The current build is a heavily modified Brilliant Corners 1.3.1 base (advanced version of VEGAn-TAB 1.00 b5.1.1), with an overclockable (1.6ghz) & undervoltable kernel from the Clemsyn universal Froyo Skype Fix.
+
+1) This MOD is based on Roebeets' Brilliant Corners ROM for the GTablet. See the description for Brilliant Corners for more info.
+
+2) I am using the latest kernel and WIFI drivers from Clemsyn, all thanks for the speed of this ROM should go to him.... not me. This ROM is overclockable (to 1.6Ghz) and undervoltable via SetCPU (Get it from XDA if you are a member, or from the market if you want to support the developer)
+
+3) Sharpe351 has been helping me put together a few customizations to FrankenTAB. Much thanks goes out to him for his continued help and support.
+
+4) I got the blessing from GoJimi to include the newest version of VTL Launcher in our rom (v1.7.5 - This is NOT on the market yet). I would suggest that you drop in over at http://vegantab.gojimi.com/ to see what's going on with the OFFICIAL VEGAn-TAB ROM, which is based on GINGERBREAD, and show your support for further development of VTL Launcher by purchasing the release version from the Android Market or via a donation on the VT-Labs / VEGAn-TAB website. 
+
+INSTALLATION NOTES:
+
+Before attempting to install this ROM, please understand how to use NVFlash (Roebeets thread) to restore your system should something go wrong.
+
+You will ABSOLUTELY need to do a data wipe / factory reset with CWM BEFORE install. I also recommend formatting your sdcard and wiping the dalvik cache before install. my current procedure is:
+
+1) NVFlash to version a 1.2 bootloader base image including CWM
+2) Perform my wipes in CWM (data / cache / Dalvik / Format SD)
+3) Mount the Tablet via USB from inside CWM / Copy all the needed files to the tablet
+4) Install the Rom in CWM
+5) Reboot
+
+APPLICATION COMPATIBILITY: KNOWN ISSUES as of release v004b
+
+(Thanks to Jcp171 & Cobey for helping work through the app testing):
+
+General Apps:
+
+1. Market: both initially and after update, no 'incompatibility messages', but some apps do not show like Dolphin and Maxthon Browsers (all add-ons do show). Cleared cache, force killed market and deleted data, uninstalled updates, then restarted market but no difference. Browsers like Opera and Opera Mini can still be found and installed.
+
+2. Skype: May be working. Could enable video calling. (Possible video glitch with duplicate send stream covering receive stream and part of toolbar. Need someone else to please confirm)
+
+E-mail:
+
+1. Default E-mail: Works great, but being a non-Gingerbread ROM, Secure Corporate E-Mail setups may not work (Mine does not because of lack of appropriate security suppprt)
+
+File Managers:
+
+1. ES File Manager: Ran fine, was able to give file manager root. UPDATE: You can just long-press the STAR icon to get to the root directory. (THANKS bdds13!)
+
+2. iFileManager: Seems to work ok and can browse to '/' and '/system/' but when I try to open 'build.prop' with it, I get a message that it is not a valid PDF file. I don't use this app so no idea if this is normal. Anyone?
+
+Utilities:
+
+1. Anreboot: Fine for reboots, but DO NOT USE THIS TO REBOOT INTO RECOVERY. It will likely only ever reboot into recovery forcing you to NVFlash the device to get it working again.
+
+Games:
+
+1. Plants Vs Zombies: (Doesn't work)Loaded and got all the way into the first level but quickly crashed. Will crash at some point either loading or trying to play. At the most it's extremely unstable...
+
+2. Gem Spinner II: Not functional
+
+3. Game compatibility with several games improved (Cut the rope now works) by removing the undervolt and returning voltages to default levels (still at 1.6ghz). May vary tab to tab... (Note: Even lowering the speed to 1ghz did not change Plants vs Zombies or Gem Spinners non-functional statuses...)
+
+Any other apps we tested worked. Please let us know if you find an app with a problem and we can make sure to confirm the issue to help Pix out. 

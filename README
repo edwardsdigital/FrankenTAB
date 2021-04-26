@@ -1,3 +1,5 @@
+THIS PROJECT HAS BEEN DEAD FOR QUITE SOME TIME NOW. I doubt anyone still has a properly working Viewsonic G-Tablet here in 2021. I would like to thank everyone that went on the journey with me in my attaempt to keep this old Tegra android tablet running as fast as it did for as long as it did. I may upload the final release here for posterity if it still exists on one of my old hard drives.
+
 FrankenTAB aims to pick up where the gtab-devs left off with VEGAn-TAB 1.00 b5.1.1 (our v001a is a direct port of b5.1.1 to BL 1.2 with a clemsyn kernel). The current build is a heavily modified Brilliant Corners 1.3.1 base (advanced version of VEGAn-TAB 1.00 b5.1.1), with an overclockable (1.6ghz) & undervoltable kernel from the Clemsyn universal Froyo Skype Fix.
 
 1) This MOD is based on Roebeets' Brilliant Corners ROM for the GTablet. See the description for Brilliant Corners for more info.
